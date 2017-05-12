@@ -1,0 +1,23 @@
+body
+{
+  margin-left: 5em;
+  margin-right: 5em;
+  border: dashed blue;
+}
+h1
+{
+  text-align: center;
+  font-weight: normal;
+}
+.gras, .combo
+{
+  font-weight: bold;
+}
+.italique, .combo
+{
+  font-style: italic;
+}
+.souligne, .combo
+{
+  text-decoration: underline;
+}

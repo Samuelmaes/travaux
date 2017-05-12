@@ -1,0 +1,36 @@
+h1
+{
+  text-align: center;
+  font-weight: bold;
+  font-size: 3em;
+}
+h2
+{
+  text-align: right;
+  font-weight: : 2em;
+}
+h2 + ol
+{
+  text-align: right;
+  text-decoration-style: none;
+  list-style: none;
+}
+h3
+{
+  font-style: italic;
+  font-weight: 2em;
+}
+h3 + ul
+{
+  list-style: none;
+
+}
+p
+{
+  font-weight: 0.50em;
+  font-style: oblique;
+}
+
+ul li {
+  text-decoration: underline;
+}

@@ -1,0 +1,66 @@
+body
+{
+  background-image: url(fond-site-italien.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Helvetica Neue", helvetica, arial, sans-serif;
+}
+.banierre
+{
+  margin-right: 20em;
+  margin-top: 1em;
+}
+.gras
+{
+  font-weight: bold;
+}
+td, th
+{
+  border: 0.1em solid black;
+}
+table
+{
+  text-align: center;
+  border-collapse: collapse;
+  width: 19em;
+}
+.pates
+{
+  margin top: 1em;
+}
+img
+{
+  width: 13em;
+  height: 12em;
+  margin-top: 2em;
+  float: right;
+}
+.sauces
+{
+  margin-top: 1em;
+}
+.boissons
+{
+  margin-top: 1em;
+}
+.desserts
+{
+  margin-top: 1em;
+}
+.identification
+{
+  margin-top: 1em;
+}
+.identification fieldset
+{
+  position: absolute;
+  right: 1em;
+  width: 5em;
+}
+.menu fieldset
+{
+  position: absolute;
+  right: 25em;
+  width: 35em;
+  background-color: Grey;
+}

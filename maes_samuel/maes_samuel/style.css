@@ -1,0 +1,44 @@
+/*bloc de présentation et menu*/
+.cadre_identification
+{
+  width: 12em;
+  height: 35em;
+  position: fixed;
+  background-color: grey;
+}
+.cadre_identification img
+{
+  width: 10em;
+  height: 10em;
+  position: relative;
+  top: 1em;
+  left: 1em;
+}
+.cadre_identification h1
+{
+  text-align: center;
+  margin-bottom: 0.2em;
+}
+.cadre_identification h2
+{
+  text-align: center;
+  margin-top: 0.2em;
+}
+.cadre_identification ul
+{
+  text-align: center;
+  list-style-type: circle;
+  position: absolute;
+  top: 16em;
+  left: 0em;
+  font-size: 1.3em;
+}
+/*fin de bloc présentation et menu*/
+
+/*zone de contenu*/
+.contenu
+{
+  left: 18em;
+  width: 50em;
+  position: relative;
+}

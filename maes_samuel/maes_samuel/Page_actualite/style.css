@@ -1,0 +1,45 @@
+@font-face
+{
+  font-family: "AvenirLTStd-Heavy";
+  src: url("police/AvenirLTStd-Heavy.otf");
+}
+body
+{
+  font-family: "AvenirLTStd-Heavy",sans-serif;
+  text-align: center;
+  background-color: lightgrey;
+}
+a
+{
+  text-decoration: none;
+  color: black;
+}
+.format
+{
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  justify-content:
+  border: red 2px solid;
+}
+.article
+{
+  width: 40em;
+  height: auto;
+  flex-direction: column;
+  border: blue 2px solid;
+}
+.contenu
+{
+  display: flex;
+  justify-content: center;
+  border: black 2px solid;
+}
+.contenu img
+{
+  height: 21em;
+  height: 21em;
+}

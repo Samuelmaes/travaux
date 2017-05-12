@@ -1,0 +1,107 @@
+body {
+  font-family: 'Dosis', sans-serif;
+  color: #454545;
+  font-size: 20px;
+  background-color: white;
+}
+
+header {
+  text-align: center;
+  font-size: 25px;
+}
+
+.opportunity {
+  text-align: center;
+}
+
+.opportu {
+  width: 1350px;
+  height: 200px;
+}
+
+.giroptic {
+  width: 300px;
+  height: 300px;
+}
+
+.monaco {
+  width: 400px;
+  height: 300px;
+}
+
+.canada {
+  width: 400px;
+  height: 300px;
+}
+
+/* DEBUT GLENN */
+.principale_jeux{
+  width: 100%;
+  height: auto;
+  background-color: lightblue;
+  /* on se place par rapport à la div proincipale */
+  position: relative;
+}
+
+.secondaires_jeux{
+  display: inline-block;
+  width: auto; /* 140px est suffisant */
+  height: auto;
+  margin-left: 3em;
+}
+
+.secondaires_jeux img {
+  width: 100px;
+  height: auto;
+}
+/* FIN GLENN */
+
+/*Debut SamM*/
+@keyframes AutoSlide {
+	0% {
+		left: 0px; /*1ère image*/
+	}
+	15% {
+		left: 0px; /*idem pour attente*/
+	}
+	35% {
+		left: -271px; /*2ème image*/
+	}
+	50% {
+		left: -271px; /*idem pour attente*/
+	}
+	70% {
+		left: -542px; /*3ème image*/
+	}
+	85% {
+		left: -542px; /*idem pour attente*/
+	}
+	100% {
+		left: 0px; /*1ère image*/
+	}
+}
+#slideshow {
+	position: relative;
+	width: 271px;
+	height: 377px;
+	margin:  20px auto;
+	overflow: hidden;
+}
+#sContent li {
+	display: inline;
+}
+#sContent {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 813px;
+	margin: 0;
+	padding: 0;
+
+	/*CSS3 keyframes animation*/
+	animation-name: AutoSlide;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+/*Fin SamM*/

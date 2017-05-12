@@ -1,0 +1,22 @@
+.container
+{
+  border: lightgrey 2px solid;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: auto;
+}
+.item
+{
+  width: 200px;
+  height: 200px;
+  background-color: lightblue;
+  display: flex;
+  margin: auto;
+}
+p
+{
+  margin: auto;
+}

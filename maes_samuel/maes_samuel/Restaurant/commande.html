@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="ex2_session2.css">
+    <title>Prise de commande</title>
+  </head>
+  <body>
+    <div class="banierre">
+    <img src="banierre.jpg" alt="banierre">
+    </div>
+    <!--Menu et leurs tarifs! image aussi et selecteur-->
+    <div class="menu">
+    <fieldset>
+      <legend>Prise de commande</legend>
+      <img src="Recette-Spaghetti-à-la-sauce-tomate-facile.jpg" alt="Spaghetti à la sauce tomate">
+      <table class="pates">
+        <caption>Faite vôtre choix</caption>
+        <tr>
+          <th rowspan="5">Nos pâtes</th>
+        </tr>
+        <tr>
+          <!--Sélection-->
+          <td>Spaghettis</td>
+          <td>
+          <form class="Q-pates" action="Home_franckette.html" method="post">
+            <p>
+              <input type="radio" name="pates" value="spaghettis" checked required="required">
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <!--Sélection-->
+          <td>Penne</td>
+          <td>
+            <p>
+              <input type="radio" name="pates" value="penne" required="required">
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <!--Sélection-->
+          <td>Tortellini</td>
+          <td>
+            <p>
+              <input type="radio" name="pates" value="tortellini" required="required">
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <!--Sélection-->
+          <td>Macaroni</td>
+          <td>
+            <p>
+              <input type="radio" name="pates" value="macaroni" required="required">
+            </p>
+          </td>
+        </tr>
+      </table>
+      <img src="sauces-1.png" alt="Assortiment de sauces">
+      <table class="sauces">
+        <tr>
+        </form>
+        <form class="saucesderoulante" action="index.html" method="post">
+          <p>
+            <label for="sauce">Quel sauce désirez-vous ?</label><br>
+            <select name="sauce">
+              <option value="Saumon">Saumon</option>
+              <option value="carbonnara">Carbonnara</option>
+              <option value="bolognaise">Bolognaise</option>
+              <option value="pesto-rouge">Pesto rouge</option>
+              <option value="poulet">Poulet</option>
+            </select>
+          </p>
+
+        </form>
+          <th rowspan="6">Nos sauces</th>
+        </tr>
+        <tr>
+          <td>Saumon</td>
+          <td>8€</td>
+          <td>
+          <form class="Q-sauce" action="Home_franckette.html" method="post">
+            <!--Sélection-->
+            <p>
+              <input type="radio" name="sauces" value="saumon" checked required="required">
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td>Carbonnara</td>
+          <td>7€</td>
+          <td>
+            <!--Sélection-->
+            <p>
+              <input type="radio" name="sauces" value="carbonnara" required=requiered>
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td>Bolognaise</td>
+          <td>6,50€</td>
+          <td>
+            <!--Sélection-->
+            <p>
+              <input type="radio" name="sauces" value="bolognaise" required="requiered">
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td>Pesto rouge</td>
+          <td rowspan="2">9€</td>
+          <td>
+            <!--Sélection-->
+            <p>
+              <input type="radio" name="sauces" value="pesto rouge" required="requiered">
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td>Poulet</td>
+          <td>
+            <!--Sélection-->
+            <p>
+              <input type="radio" name="sauces" value="poulet" required="requiered">
+            </p>
+          </td>
+        </tr>
+      </table>
+      <img src="boisson-froide-orange.jpg" alt="boissons : Jus d'orange">
+      <table class="boissons">
+        <tr>
+          <th rowspan="5">Nos boissons</th>
+        </tr>
+        <tr>
+          <td>Bière</td>
+          <td>5€</td>
+          <td>
+            <!--Sélection-->
+          <form class="Q-boissons" action="Home_franckette.html" method="post">
+            <p>
+              <input type="radio" name="boissons" value="biere" checked required="required">
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td>Coca-Cola</td>
+          <td>2€</td>
+          <td>
+            <!--Sélection-->
+            <p>
+              <input type="radio" name="boissons" value="cocacola" required="requiered">
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td>Eau</td>
+          <td>1,25€</td>
+          <td>
+            <!--Sélection-->
+            <p>
+              <input type="radio" name="boissons" value="eau" required="required">
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td>Jus d'orange</td>
+          <td>1,50€</td>
+          <td>
+            <!--Sélection-->
+            <p>
+              <input type="radio" name="boissons" value="jus-d-orange" required="required">
+            </p>
+          </td>
+        </tr>
+      </table>
+      <img src="tarte-aux-pommes-a-l-ancienne.jpg" alt="Desserts : Tarte aux pommes">
+      <table class="desserts">
+        <tr>
+          <th rowspan="5">Nos desserts</th>
+        </tr>
+        <tr>
+          <td>Yahourt nature</td>
+          <td>3€</td>
+          <td>
+            <!--Sélection-->
+          <form class="desserts" action="Home_franckette.html" method="post">
+            <p>
+              <input type="checkbox" name="yahourte-nature">
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td>Fromage blanc</td>
+          <td>2,50€</td>
+          <td>
+            <!--Sélection-->
+            <p>
+              <input type="checkbox" name="fromage-blanc">
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td>Tarte aux pommes</td>
+          <td>4€</td>
+          <td>
+            <!--Sélection-->
+            <p>
+              <input type="checkbox" name="tarte-aux-pommes">
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td>Café gourmand</td>
+          <td>5€</td>
+          <td>
+            <!--Sélection-->
+            <p>
+              <input type="checkbox" name="cafe-gourmand">
+            </p>
+          </form>
+          </td>
+        </tr>
+      </table>
+      <!--calendrier de réservation!-->
+      <form class="date" action="Home_franckette.html" method="post">
+        <input type="date" name="Date" value="today" min="today">
+        <input type="submit" value="J'ai terminer ma commande">
+        <a href="commande.html">
+        <input type="submit" value="Poursuivre ma commande">
+        </a>
+      </form>
+      <!--fin de calendrier de réservation!-->
+      </fieldset>
+    </div>
+    <!--Fin Menu et leurs tarifs!-->
+  </body>
+</html>
